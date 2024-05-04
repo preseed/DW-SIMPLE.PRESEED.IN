@@ -42,6 +42,20 @@
   <!-- Custom styles for this template -->
   <link href="assets/css/carousel.css" rel="stylesheet">
 
+  <style>
+    .accordion-toggle.collapsed::after {
+      top: 18px;
+      left: 8px;
+      content: "▼";
+    }
+
+    .accordion-toggle::after {
+
+      content: "▲";
+      width: 5px;
+      height: auto;
+    }
+  </style>
 </head>
 <!-- NAVBAR
 ================================================== -->
@@ -163,9 +177,9 @@
               <div class="panel panel-default ">
                 <div class="panel-heading  p2" role="tab" id="headingOne">
                   <h4 class="panel-title">
-                    <a class="accordion-toggle" class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#collapsePreseedStartup"
                       href="#collapsePreseedStartup" aria-expanded="false" aria-controls="collapseOne">
-                      <b>+ Preseed Acceleration Service & Clients</b>
+                      <b>Preseed Acceleration Service & Clients </b>
                     </a>
                   </h4>
                 </div>
@@ -261,7 +275,7 @@
                         <h4 class="panel-title">
                           <a class="accordion-toggle" class="collapsed" data-toggle="collapse" data-parent="#accordion"
                             href="#collapsePreseedStartup2" aria-expanded="false" aria-controls="collapseOne">
-                            <b>+ Portfolio 3 - Preseed Education Accelerator</b>
+                            <b>Portfolio 3 - Preseed Education Accelerator</b>
                           </a>
                         </h4>
                       </div>
@@ -323,8 +337,7 @@
                             <br>
                             <p align="center">
                               <a href="https://www.netzeroindia.org/" target="_blank">
-                                <img src="assets/images/netzerologo.jpeg" alt="netzero"
-                                  style="width: 120px; height: auto;">
+                                <img src="assets/images/MEL.png" alt="netzero" style="width: 120px; height: auto;">
                               </a>
                             </p>
                             <br>

@@ -210,14 +210,13 @@ ul.links {
   /* padding-right: 10px; */
 }
 .yoga_quote {
-  color: #fff;
-  text-shadow: 1px 1px 2px #000000dc;
+   color: #fff;
   letter-spacing: 2px;
-  font-weight: 300;
+  font-weight: bold;
   line-height: 180%;
-  font-size: 1.1em;
+  font-size: 1rem;
   padding-left: 10px;
-  padding-right: 10px;h
+  padding-right: 10px;
 }
 /*Navigation*/
 .navbar-custom {
